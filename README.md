@@ -20,6 +20,7 @@ The code is written in Python 3.
 
 Optional
 - [Tensorflow](https://www.tensorflow.org) (If you want to monitor the experiment with Tensorboard)
+**Acknowledgement** : For using Tensorboard with PyTorch, we used the code from https://gist.github.com/gyglim/1f8dfb1b5c82627ae3efcfbbadb9f514
 
 ## Resource Map
 ```
