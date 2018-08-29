@@ -12,19 +12,19 @@
 
 ## Dependencies
 The code is written in Python 3.
-- [PyTorch] (http://pytorch.org) (Our used version is <b>0.4.0a0+396637c</b>)
-- [JSON] (https://docs.python.org/3.1/library/json.html)
-- [Joblib] (http://pypi.python.org/pypi/joblib)
-- [Pandas] (https://pandas.pydata.org)
-- [Jupyter Notebook] (http://jupyter.org)
+- [PyTorch](http://pytorch.org) (Our used version is <b>0.4.0a0+396637c</b>)
+- [JSON](https://docs.python.org/3.1/library/json.html)
+- [Joblib](http://pypi.python.org/pypi/joblib)
+- [Pandas](https://pandas.pydata.org)
+- [Jupyter Notebook](http://jupyter.org)
 - CUDA 8.0
 
 Optional
-- [Tensorflow] (https://www.tensorflow.org) (If you want to monitor the experiment with Tensorboard)
+- [Tensorflow](https://www.tensorflow.org) (If you want to monitor the experiment with Tensorboard)
 
 ## Resource Map
 ```
-├── data
+├── data (Create the directory)
 ├── LICENSE
 ├── processed_data
 │   ├── all_sequence_dict.json
@@ -51,24 +51,18 @@ Optional
     ├── models.py
     ├── notebooks
     │   └── Prepare Data.ipynb
-    ├── outputs
-    │   └── 4_shorter_rand_emb_rmsprop
-    │       ├── best.pth
-    │       └── logs
-    │           ├── events.out.tfevents.1529639175.ritual-nlpdigits
-    │           └── events.out.tfevents.1529640895.ritual-nlpdigits
+    ├── outputs (Create the directory)
     ├── predict_tags.py
     ├── report.py
     ├── tf_logger.py
     ├── TorchHelper.py
-    ├── t.py
     └── train.py
 ```
 
 
 
 ## Usage
-1. Download the [MPST Corpus] (http://ritual.uh.edu/mpst-2018).
+1. Download the [MPST Corpus](http://ritual.uh.edu/mpst-2018).
 2. Unzip the data and put the <b>MPST</b> directory inside the <b>data</b> directory.
 3. Use the data processor notebook located at <b>source/notebooks/Prepare Data.ipynb</b> to prepare the data for the model.
     The processed data would be dumped inside <b>processed_data</b> directory.
@@ -95,5 +89,4 @@ Optional
 │   └── word2idx_no_process.json
 ```
 
-5.
-6. 
+5. For training, use the train.py. It will dump the model and logs in the output directory set in the code.
