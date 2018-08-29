@@ -1,12 +1,11 @@
 # Implementation of "Folksonomication: Predicting Tags for Movies from Plot Synopses using Emotion Flow Encoded Neural Network"
 
-[Project Home and Live Demo] (http://ritual.uh.edu/folksonomication-2018) 
+[Project Home and Live Demo](http://ritual.uh.edu/folksonomication-2018) 
 
 ## Contributors
-- Sudipta Kar
-- Suraj Maharjan
-- Thamar Solorio
-
+- [Sudipta Kar](http://sudiptakar.info)
+- [Suraj Maharjan](http://cs.uh.edu/~suraj)
+- [Thamar Solorio](http://solorio.uh.edu)
 
 
 
@@ -90,3 +89,23 @@ Optional
 ```
 
 5. For training, use the train.py. It will dump the model and logs in the output directory set in the code.
+
+
+
+## Bibtex
+```
+@InProceedings{C18-1244,
+  author = 	"Kar, Sudipta
+		and Maharjan, Suraj
+		and Solorio, Thamar",
+  title = 	"Folksonomication: Predicting Tags for Movies from Plot Synopses using Emotion Flow Encoded Neural Network",
+  booktitle = 	"Proceedings of the 27th International Conference on Computational Linguistics",
+  year = 	"2018",
+  publisher = 	"Association for Computational Linguistics",
+  pages = 	"2879--2891",
+  location = 	"Santa Fe, New Mexico, USA",
+  url = 	"http://aclweb.org/anthology/C18-1244"
+}
+```
+
+* For any queries, please contact the first author at skar3 AT uh DOT edu
