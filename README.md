@@ -64,9 +64,10 @@ Optional
 ## Usage
 1. Download the [MPST Corpus](http://ritual.uh.edu/mpst-2018).
 2. Unzip the data and put the <b>MPST</b> directory inside the <b>data</b> directory.
-3. Use the data processor notebook located at <b>source/notebooks/Prepare Data.ipynb</b> to prepare the data for the model.
+3. Download the Fasttext pre-trained embeddings and edit the path in the code in the notebook.
+4. Use the data processor notebook located at <b>source/notebooks/Prepare Data.ipynb</b> to prepare the data for the model.
     The processed data would be dumped inside <b>processed_data</b> directory.
-4. After completing the processing, <b>processed_data</b> directory should look like below.
+5. After completing the processing, <b>processed_data</b> directory should look like below.
 
 ```
 ├── processed_data
@@ -89,7 +90,7 @@ Optional
 │   └── word2idx_no_process.json
 ```
 
-5. For training, use the train.py. It will dump the model and logs in the output directory set in the code.
+6. For training, use the train.py. It will dump the model and logs in the output directory set in the code.
 
 
 
